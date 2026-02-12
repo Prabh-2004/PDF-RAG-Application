@@ -1,5 +1,4 @@
 streamlit
-os
 langchain
 langchain-community
 langchain-classic
@@ -11,4 +10,5 @@ langchain-chroma
 chroma-db
 faiss-cpu
 pypdf
+
 pymupdf
