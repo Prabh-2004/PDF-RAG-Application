@@ -16,7 +16,7 @@ from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 load_dotenv()
 
-os.environ["HF_ACCESS_TOKEN"] = os.getenv("HF_ACCESS_TOKEN")
+# os.environ["HF_ACCESS_TOKEN"] = os.getenv("HF_ACCESS_TOKEN")
 
 # Initialize the HuggingFace Embeddings
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
@@ -123,3 +123,4 @@ if api_key:
             # st.write("Chat History: ", session_history.messages)
 else:
     st.warning("Please Enter your Groq API Key.")
+
