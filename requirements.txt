@@ -7,8 +7,8 @@ langchain-groq
 langchain-text-splitters
 langchain-huggingface
 langchain-chroma
-chroma-db
-faiss-cpu
+chromadb
 pypdf
-
+sentence-transformers
 pymupdf
+
